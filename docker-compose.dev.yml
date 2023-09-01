@@ -2,7 +2,7 @@ version: '3'
 services:
   db:
     container_name: food-app-db
-    image: postgres
+    image: arm64v8/postgres:12
     restart: always
     env_file:
       - ./env/.env.dev
@@ -27,6 +27,7 @@ services:
   dev:
     container_name: food-app-dev
     image: food-app-api
+    tty: true
     env_file:
       - ./env/.env.dev
     build:

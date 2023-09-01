@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 import { InversifyExpressServer } from 'inversify-express-utils';
-import container from './core/container.core';
+import container from './src/core/container.core';
 
 export const server = new InversifyExpressServer(container);
 server.setConfig(app => {
