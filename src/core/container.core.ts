@@ -7,6 +7,7 @@ import { IAuthRepository } from '../modules/auth/interfaces/IAuth.repository';
 import { AuthRepository } from '../modules/auth/repository/auth.repository';
 import { IAuthService } from '../modules/auth/interfaces/IAuth.service';
 import { AuthService } from '../modules/auth/service/auth.service';
+import "../modules/index.controller";
 
 const container = new Container();
 
