@@ -1,3 +1,5 @@
+docker compose -f docker-compose.dev.yml --env-file env/.env.dev build --no-cache
+
 docker compose -f docker-compose.dev.yml --env-file env/.env.dev up
 
 // It will create migration file in /src/migrations folder
