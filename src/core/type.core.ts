@@ -3,6 +3,6 @@ export const TYPES = {
   IDatabaseService: Symbol.for('IDatabaseService'),
   IAuthRepository: Symbol.for('IAuthRepository'),
   IAuthService: Symbol.for('IAuthService'),
-  // IUserRepository: Symbol.for('IUserRepository'),
-  // IUserService: Symbol.for('IUserService'),
+  IUserRepository: Symbol.for('IUserRepository'),
+  IUserService: Symbol.for('IUserService'),
 };
